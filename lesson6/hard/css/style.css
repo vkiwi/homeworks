@@ -1,0 +1,55 @@
+*{
+  box-sizing: border-box;
+}
+.card{
+  width: 71%;
+  height: 503px;
+  border: 1px solid #d7d7d7;
+  background-color: #ffffff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  min-width: 900px;
+}
+.photo{
+  width: 34%;
+  height: 375px;
+  background-image: url("../images/headphones.png");
+  background-position: 85%;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  margin-left: 48px;
+  margin-right: 99px;
+  display: inline-block;
+  vertical-align: middle;
+  min-width: 300px;
+}
+.description{
+  display: inline-block;
+  width: 49%;
+  vertical-align: middle;
+}
+h1{
+  font-size: 23px;
+  margin-bottom: 30px;
+}
+p{
+  font-size: 15px;
+}
+.p2{
+  margin-top: 55px;
+}
+.price{
+  font-size: 30px;
+}
+button{
+  width: 30%;
+  height: 50px;
+  background-color: #ec744a;
+  font-size: 19px;
+  color: #fff;
+  border: none;
+}
