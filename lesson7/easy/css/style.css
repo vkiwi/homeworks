@@ -1,0 +1,65 @@
+body{
+  background: #f9f9f9;
+  font-family: sans-serif;
+}
+h1{
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 125px;;
+}
+.wrap{
+  display: flex;
+  justify-content: center;
+}
+.item{
+  display: flex;
+  flex-direction: column;
+  width: 285px;
+  align-items: center;
+}
+.wrapper{
+  width: 263px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
+.tool1{
+  background: url("../images/cutter.png");
+}
+.tool2{
+  background: url("../images/cutter2.png");
+}
+.tool3{
+  background: url("../images/mat.png");
+}
+.tool4{
+  background: url("../images/ruler.png");
+}
+.tool{
+  width: 218px;
+  height: 210px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+p{
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+}
+b{
+  font-size: 18px;
+  font-weight: 700;
+}
+button{
+  width: 200px;
+  height: 55px;
+  background: #f9f9f9;
+  border: 2px solid #23bac1;
+  color: #23bac1;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 101px;
+}
