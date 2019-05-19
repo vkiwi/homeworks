@@ -1,0 +1,19 @@
+body{
+  background-color: aquamarine;
+}
+h1, h2{
+  text-align: center;
+}
+.wrap{
+  display: inline-block;
+  min-width: 400px;
+  min-height: 40px;
+  border: 2px solid rgb(38, 80, 134);
+  margin-bottom: 10px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+}
+ul {
+  list-style-image: url("../images/item.png");
+  
+}
