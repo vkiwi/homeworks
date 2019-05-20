@@ -1,0 +1,30 @@
+.box{
+  height: 60px;
+  background-color: black;
+}
+h1{
+  text-transform: uppercase;
+  color: #333333;
+  font-family: Tahoma;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+.container{
+  text-align: center;
+}
+img{
+  margin-bottom: 20px;
+}
+div{
+  color: #333333;
+font-family: Tahoma;
+font-size: 16px;
+font-weight: 700;
+}
+.fith{
+  padding-top: 10px;
+}
