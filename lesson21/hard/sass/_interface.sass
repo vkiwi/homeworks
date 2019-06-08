@@ -1,0 +1,79 @@
+*
+  box-sizing: border-box
+body
+  +reg  
+  box-sizing: border-box
+img
+  max-width: 100%
+.container
+  width: 1170px
+  margin: auto
+@media (max-width: 1200px)
+  .container
+    width: 760px
+@media (max-width: 768px)
+  .container
+    max-width: 580px
+    width: 95%
+  .section
+    padding-top: 60px
+    padding-bottom: 60px
+@media (max-width: 567px)
+  .container
+    max-width: 490px
+    width: 90%
+.button
+  border-radius: 10px
+  background-color: $main-color
+  border: none
+  padding: 18px 30px
+  font-weight: bold
+  &:hover
+    background-color: lighten($main-color, 10%)
+    cursor: pointer
+.section
+  padding: 90px 0
+  &-title
+    font-size: 24px
+    text-align: center
+    +bold
+    line-height: 35px
+    max-width: 500px
+  &-subtitle
+    display: block
+    font-size: 16px
+.input
+  border: 1px solid $border-input
+  padding: 20px 26px
+  font-size: 15px
+  border-radius: 10px
+.arrows
+  &__left, &__right
+    &:hover
+      cursor: pointer
+#button-up
+    left: 0
+    margin: 0
+    position: fixed
+    bottom: 50px
+    outline: none
+    width: 100px
+    color: #333333
+    line-height: 30px
+    text-decoration: none
+    padding: 0px 0 0 28px
+    background: url(../img/icon-up.png) no-repeat 7px 
+
+    border-radius: 0 4px 4px 0
+    -webkit-border-radius: 0 4px 4px 0
+    -moz-border-radius: 0 4px 4px 0
+    -o-border-radius: 0 4px 4px 0
+
+    box-shadow: 0 2px 4px #999
+    -webkit-box-shadow: 0 2px 4px #999
+    -moz-box-shadow: 0 2px 4px #999
+    -o-box-shadow: 0 2px 4px #999
+    cursor: pointer
+
+.input.invalid
+  border: 1px solid red
