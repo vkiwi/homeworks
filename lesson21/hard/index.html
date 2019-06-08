@@ -392,6 +392,8 @@
 
         // валидация первой формы из блока offer
         $('#offer-form').validate({
+          errorClass: "invalid",
+          errorElement: "div",
           rules: {
             username: {
               required: true,
